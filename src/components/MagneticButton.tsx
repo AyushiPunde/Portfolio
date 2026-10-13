@@ -10,8 +10,8 @@ export function MagneticButton({ children, className = "", ...props }: Props) {
     const el = ref.current!;
     if (matchMedia("(pointer: coarse)").matches) return;
 
-    const xTo = gsap.quickTo(el, "x", { duration: 0.4, ease: "power3.out" });
-    const yTo = gsap.quickTo(el, "y", { duration: 0.4, ease: "power3.out" });
+    const xTo = gsap.quickTo(el, "x", { duration: 0.2, ease: "power3.out" });
+    const yTo = gsap.quickTo(el, "y", { duration: 0.2, ease: "power3.out" });
 
     const onMove = (e: MouseEvent) => {
       const r = el.getBoundingClientRect();

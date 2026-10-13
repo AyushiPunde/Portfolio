@@ -3,13 +3,15 @@ import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { X } from "lucide-react";
 import { ScribbleUnderline, TapeStrip, DoodleStar, SparkleBurst, HalftoneDots, ComicBurst } from "../components/Doodles";
 import { EASE, Reveal, useTilt } from "../components/Motion";
+import imgMarketPulse from "/public/img/project-marketpulse.png";
+import imgEpilepsy from "/public/img/project-epilepsy.png";
 
 const PROJECTS = [
   {
     title: "MarketPulse-AI",
     tag: "Data + AI",
     date: "February 2026",
-    img: `${import.meta.env.BASE_URL}img/project-marketpulse.png`,
+    img: imgMarketPulse,
     accent: "--color-secondary",
     rotate: "-rotate-1",
     description:
@@ -26,7 +28,7 @@ const PROJECTS = [
     title: "Epilepsy Detection System",
     tag: "Machine Learning",
     date: "June 2024",
-    img: `${import.meta.env.BASE_URL}img/project-epilepsy.png`,
+    img: imgEpilepsy,
     accent: "--color-warm",
     rotate: "rotate-1",
     description:

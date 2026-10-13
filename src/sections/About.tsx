@@ -12,6 +12,7 @@ import {
   Squiggle,
   DashedArrow,
 } from "../components/Doodles";
+import imgPortrait from "/public/img/ayushi-portrait.png";
 
 export const LINKEDIN = "https://www.linkedin.com/in/ayushi-punde-9520a0366";
 export const GITHUB = "https://github.com/AyushiPunde";
@@ -39,7 +40,7 @@ export function About() {
           <div className="relative -rotate-2 rounded-[2rem] bg-(--color-surface) p-6 shadow-[8px_10px_0_0_var(--color-shadow)]">
             <TapeStrip color="var(--color-warm)" className="absolute -top-3 left-10 z-10" />
             <img
-              src={`${import.meta.env.BASE_URL}img/ayushi-portrait.png`}
+              src={imgPortrait}
               alt="Illustration of Ayushi working on a laptop with charts"
               loading="lazy"
               className="w-64 rounded-2xl md:w-72"

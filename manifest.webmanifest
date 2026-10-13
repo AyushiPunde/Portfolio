@@ -1,0 +1,10 @@
+{
+  "name": "Ayushi Punde — Aspiring Data Analyst",
+  "short_name": "Ayushi Punde",
+  "description": "Portfolio of Ayushi Punde, an aspiring data analyst skilled in Python, SQL, EDA and visualization.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0a1d",
+  "theme_color": "#0d0a1d",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

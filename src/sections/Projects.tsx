@@ -9,7 +9,7 @@ const PROJECTS = [
     title: "MarketPulse-AI",
     tag: "Data + AI",
     date: "February 2026",
-    img: "/img/project-marketpulse.png",
+    img: `${import.meta.env.BASE_URL}img/project-marketpulse.png`,
     accent: "--color-secondary",
     rotate: "-rotate-1",
     description:
@@ -26,7 +26,7 @@ const PROJECTS = [
     title: "Epilepsy Detection System",
     tag: "Machine Learning",
     date: "June 2024",
-    img: "/img/project-epilepsy.png",
+    img: `${import.meta.env.BASE_URL}img/project-epilepsy.png`,
     accent: "--color-warm",
     rotate: "rotate-1",
     description:

@@ -39,7 +39,7 @@ export function About() {
           <div className="relative -rotate-2 rounded-[2rem] bg-(--color-surface) p-6 shadow-[8px_10px_0_0_var(--color-shadow)]">
             <TapeStrip color="var(--color-warm)" className="absolute -top-3 left-10 z-10" />
             <img
-              src="/img/ayushi-portrait.png"
+              src={`${import.meta.env.BASE_URL}img/ayushi-portrait.png`}
               alt="Illustration of Ayushi working on a laptop with charts"
               loading="lazy"
               className="w-64 rounded-2xl md:w-72"

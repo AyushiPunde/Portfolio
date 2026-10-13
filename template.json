@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "website",
+  "slug": "portfolio-website-template-2d-animator-motion-designer-portfolio",
+  "title": "Portfolio Website Template - 2D Animator & Motion Designer Portfolio",
+  "summary": "Playful dark navy portfolio for a 2D animator, motion designer and video editor (Emily) with a dotted-grid background, glowing purple and lime blobs, twinkling star sparkles and bold rounded headings. Features an animated 'Hey, I'm EMILY' hero with Watch Showreel and View Projects buttons, a showreel section with a taped-on retro synthwave city video frame, Featured Work cards (2D Animation, Motion Graphics, Animated Short, Music Video), a software Toolkit strip, an About Me block with stats and a nav for Home, Projects, About, Blog and Contact. Fully phone responsive.",
+  "category": "Portfolio",
+  "prompt": "Create a playful one-page portfolio website for a 2D animator, motion designer and video editor in a dark navy theme with a subtle dotted-grid background, glowing purple and lime gradient blobs, twinkling star sparkles and bold rounded headings. Hero: an animated 'Hey, I'm EMILY' headline with a short intro line and two buttons, Watch Showreel and View Projects. Add a top nav with Home, Projects, About, Blog and Contact. Include a Showreel section with a taped-on retro synthwave city video frame, a Featured Work section with four project cards (2D Animation, Motion Graphics, Animated Short, Music Video), a Toolkit strip showing software icons (After Effects, Premiere Pro, Illustrator, Photoshop, Blender, Toon Boom), an About Me block with a short bio and stats (projects completed, happy clients, years of experience) and a contact footer with email and social links. Add smooth scroll and hover animations, make every button work and the site fully phone responsive.",
+  "brief": "site",
+  "min_plan": "free",
+  "thumbnail": "preview/slide-01.webp",
+  "demo_url": "https://portfolio-site-4b3.site.orvisai.com/"
+}
